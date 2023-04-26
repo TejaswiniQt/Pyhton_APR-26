@@ -1,0 +1,231 @@
+'''
+String methods
+
+'''
+
+'''
+#1. isdigit()
+
+str1 = "4512"
+print(str1.isdigit())
+
+str2 = "7874.56"
+print(str2.isdigit())
+
+str3 = "454 8787"
+print(str3.isdigit())
+
+str4 = "54547 "
+print(str4.isdigit())
+'''
+
+'''
+#2. strip()
+
+str1 = "some text some"
+print(str1.strip('some'))
+
+str2 = " text"
+print(str2.strip())
+
+str3 = "text "
+print(str3.strip())
+
+str4 = "some...---;;;==="
+print(str4.strip(".-;="))
+
+str5 = "some...---;;; ==="
+print(str5.strip(".-;"))
+
+str6 = "some...---;;; ==="
+print(str6.strip(".-;="))
+'''
+
+'''
+#3. lower()
+
+str1 = "Hello"
+print(str1.lower())
+
+str2 = "HeLLo"
+print(str2.lower())
+
+str3 = "HeLlo WorLD"
+print(str3.lower())
+'''
+
+'''
+#4. upper()
+
+str1 = "Hello"
+print(str1.upper())
+
+str2 = "heLlo"
+print(str2.upper())
+
+str3 = "hello World"
+print(str3.upper())
+'''
+
+'''
+#5. startswith()
+
+str1 = "hello"
+print(str1.startswith('h'))
+
+str2 = "hello"
+print(str2.startswith('H'))
+
+str3 = "hello world"
+print(str3.startswith('he'))
+'''
+
+'''
+#6. endswith()
+
+str1 = "hello"
+print(str1.endswith('o'))
+
+str2 = "hello"
+print(str2.endswith('O'))
+
+str3 = "hello world"
+print(str3.endswith('ld'))
+'''
+
+'''
+#7. replace()
+
+str1 = "hello"
+print(str1.replace('h','H'))
+
+str2 = "hello"
+print(str2.replace('lo','Lo'))
+
+str3 = "hello"
+print(str3.replace('hello','world'))
+
+str4 = "hello world"
+print(str4.replace('world','hello'))
+'''
+
+'''
+#8. isalpha()
+
+str1 = "hello"
+print(str1.isalpha())
+
+str2 = "hello12"
+print(str2.isalpha())
+
+str3 = "hello world"
+print(str3.isalpha())
+
+str4 = "hello@world"
+print(str4.isalpha())
+'''
+
+'''
+#9. isdecimal()
+
+str1 = "57878"
+print(str1.isdecimal())
+
+str2 = "45457.25"
+print(str2.isdecimal())
+
+str3 = "hello45"
+print(str3.isdecimal())
+'''
+
+'''
+#10. islower()
+
+str1 = "hello"
+print(str1.islower())
+
+str2 = "Hello"
+print(str2.islower())
+
+str3 = "heLlo"
+print(str3.islower())
+
+str4 = "hello World"
+print(str4.islower())
+
+str5 = "hello world"
+print(str5.islower())
+'''
+
+'''
+#11. isupper()
+
+str1 = "Hello"
+print(str1.isupper())
+
+str2 = "HELLO"
+print(str2.isupper())
+
+str3 = "HEllO"
+print(str3.isupper())
+
+str4 = "HELLO World"
+print(str4.isupper())
+
+str5 = "HELLO WORLD"
+print(str5.isupper())
+'''
+
+'''
+#12. isalnum()
+
+str1 = "hello"
+print(str1.isalnum())
+
+str2 = "hello45"
+print(str2.isalnum())
+
+str3 = "hello 45"
+print(str3.isalnum())
+
+str4 = "45hello"
+print(str4.isalnum())
+
+str5 = "hello45world"
+print(str5.isalnum())
+
+str6 = "hello world89"
+print(str6.isalnum())
+'''
+
+'''
+#13. capitalize()
+
+str1 = "hello"
+print(str1.capitalize())
+
+str2 = "heLLo"
+print(str2.capitalize())
+
+str3 = "heLlo worLd"
+print(str3.capitalize())
+'''
+
+'''
+#14. title()
+
+str1 = "hello world"
+print(str1.title())
+
+str2 = "heLLo worLd"
+print(str2.title())
+'''
+
+#15. swapcase()
+
+str1 = "Hello"
+print(str1.swapcase())
+
+str2 = "Hello WorLd"
+print(str2.swapcase())
+
